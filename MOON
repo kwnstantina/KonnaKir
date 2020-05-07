@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Σελήνη</title>
+    
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <style type="text/css">
+            body {
+             background-color:darkcyan;
+             margin: 0;
+             padding: 0;
+             font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            
+         }
+             div {
+              width: 600px;
+             margin: 5em auto;
+              padding: 2em;
+                background-color:initial;;
+                border-radius: 0.5em;
+                box-shadow: 2px 3px 7px 2px rgba(0,0,0,0.02);
+        }
+        a:link, a:visited {
+            color:black;
+            text-decoration: none;
+        }
+        @media (max-width: 700px) {
+            div {
+                margin: 0 auto;
+                width: auto;
+            }
+        }
+
+        
+        a{  
+            text-decoration: none;  
+            color: green;  
+            font-size: 20px;  
+            padding: 8px;  
+            text-align: center;
+        }  
+        a:hover{  
+            color: rgb(50, 70, 82); 
+            text-align: center; 
+        } 
+
+        iframe:focus {
+            outline: none;
+        } 
+
+
+        .section {
+            padding: 20px;
+            margin: 20px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 20px;
+            text-align: center;            
+        
+        
+        </style>    
+    </head>
+    
+    
+        <body>
+            <h1 class=section> Σελήνη(Moon)</h1>
+            <nav  class="section"> 
+                <a href="#General">Γενικά</a> |
+                <a href="#Exploration">Εξερεύνηση Σελήνης</a> |
+                <a href="#Eclipse">Το φαινόμενο της Έκλειψης</a> |
+                <a href="#Comments">Σχόλια</a> |
+                <a href="#Links">Links</a>
+            </nav>
+          
+          
+        <section id="General" class="section">
+            <h2>Γενικά</h2>
+            <p>Η σελήνη είναι ο μοναδικός δορυφόρος της γης.</p>
+            <p>Η μέση απόσταση της γης από τη σελήνη είναι περίπου 380 χιλιάδες χιλιόμετρα.</p>
+            <p>Η διάμετρος της σελήνης είναι περίπου 3.500 χιλιόμετρα, <br>δηλαδή είναι το 1/4 της διαμέτρου της γης.</br></p>
+            <figure>
+            <img src="moon.jpg" alt="Το φεγγάρι" title="Η Σελήνη">
+                <figcaption>Η σελήνη όπως φαίνεται από τη γη (από wikipedia commons)</figcaption>
+             </figure>
+        </section>
+
+        <section id="Exploration" class="section">
+           <h2>Η εξερεύνηση της σελήνης</h2>
+           <p>Ο <strong>Νηλ Άρμστρονγκ </strong>είναι ο πρώτος άνθρωπος που πάτησε τη σελήνη το 1969.</p>
+           <p>Είναι φημισμένα τα λόγια του με την ευκαιρία της αποστολής αυτής.</p>
+           <figure>
+             <audio controls>
+                <source src="http://upload.wikimedia.org/wikipedia/commons/transcoded/4/48/Frase_de_Neil_Armstrong.ogg/Frase_de_Neil_Armstrong.ogg.mp3" type="audio/mpeg">
+                Ο φυλλομετρητής σας δεν υποστηρίζει το στοιχείο audio
+             </audio>
+             <figcaption><em>Αυτό το μικρό βήμα του ανθρώπου είναι ένα τεράστιο βήμα για την ανθρωπότητα</em></figcaption>
+            </figure>
+        </section>
+
+        <section id="Eclipse" class="section">
+            <h3>Το φαινόμενο της Έκλειψης</h3>
+            <p>Έκλειψη Σελήνης είναι το φαινόμενο κατά το οποίο η σελήνη περνά ακριβώς πίσω από τη Γη στη σκιά της. Αυτό μπορεί να συμβεί μόνο εάν ο Ήλιος. η Γη και η Σελήνη είναι σε συζυγία, με τη Γη ευρισκόμενη 
+                μεταξύ των δύο άλλων σωμάτων. Κάτι τέτοιο όμως είναι μόνο δυνατό νύχτα με πανσέληνο.</p>
+            <figure>
+                <img src="ekleici.png"  alt="Έκλειψη της σελήνης" width="300px" title="Εκλειψη">
+                <figcaption><em>Η γεωμετρία της έκλειψης σελήνης (www.physics4u.gr)</em></figcaption>
+            </figure>  
+        </section>
+
+
+        <section id="Comments" class="section">
+            <h2>Τα σχόλιά σας </h2>
+            <form method="post" action="Moon.html">
+                <textarea id="comments" name="comments" rows=5 cols=50></textarea><br>
+                <input type="submit" value="Εδώ θα μπορούσατε να παραθέσετε τα σχόλιά σας">
+            </form>
+        </section>
+
+        </body>
+
+        <section id="Links" class="section">
+            <marquee>Επιπρόσθετα </marquee>
+            <h5>Links</h5>
+            <iframe src="https://www.cnn.gr/eidhseis/tag/4733/selini" height="500" width="600"></iframe>    
+            
+        </section>
+
+
+</html>
